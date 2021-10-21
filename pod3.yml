@@ -1,15 +1,11 @@
 apiVersion: v1
 kind: Pod
 metadata:
-  name: pod3
+  name: pod4
   labels:
     app: helloworld
 spec:
   containers:
-  - name: nginx-arjun
-    image: nginx
-    ports:
-    - containerPort: 80
   - name: kundru-k8s-demo
     image: arjunachari12/k8s-demo
     ports:
