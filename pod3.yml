@@ -2,7 +2,7 @@ apiVersion: v1
 kind: Pod
 metadata:
   name: pod3
-  lables:
+  labels:
     app: helloworld
 spec:
   containers:
