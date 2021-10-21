@@ -9,4 +9,5 @@ spec:
   - name: kundru-k8s-demo
     image: arjunachari12/k8s-demo
     ports:
-    - containerPort: 81
+    - name: nodejs-port
+      containerPort: 3000
