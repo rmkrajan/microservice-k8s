@@ -8,7 +8,7 @@ spec:
     image: nginx
     ports:
     - containerPort: 80
-  - name: afakharany/watcher-kundru
+  - name: watcher-kundru
     image: afakharany/watcher
     ports:
     - containerPort: 81
